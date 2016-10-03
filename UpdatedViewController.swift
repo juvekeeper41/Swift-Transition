@@ -10,10 +10,13 @@ import UIKit
 
 class UpdatedViewController : UIViewController
 {
+    
+    
     override func viewDidLoad()
     {
-        //Load the parenversion of a View.
+        //Load the parent version of a View.
         super.viewDidLoad()
         //Load this page's components.
+        bottomImage.image = UIImage(named: "friends")
     }
 }

@@ -16,6 +16,14 @@
                     <view key="view" contentMode="scaleToFill" id="l8g-dh-bth">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TMZ-4Q-ytQ">
+                                <rect key="frame" x="180" y="269" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My Friends" translatesAutoresizingMaskIntoConstraints="NO" id="D8J-vk-MXC">
+                                <rect key="frame" x="180" y="50" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -23,10 +31,10 @@
             </objects>
             <point key="canvasLocation" x="731" y="478"/>
         </scene>
-        <!--View Controller-->
+        <!--UpdatedViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift_Transition" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="UpdatedViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Swift_Transition" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -54,5 +62,8 @@
             <point key="canvasLocation" x="-28" y="478"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="My Friends" width="599" height="364"/>
+    </resources>
     <color key="tintColor" red="0.26167472959999999" green="1" blue="0.21130741040000001" alpha="1" colorSpace="calibratedRGB"/>
 </document>
